@@ -62,7 +62,7 @@ body {
 .card_content {
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 0 16px 16px;
 }
 
 .card_content h1 {
