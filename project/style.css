@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --dark-navy: hsla(217, 44%, 22%, 1);
+    --gray: hsla(219, 15%, 55%, 1);
+
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+html {
+    background-color: var(--light-gray);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--white);;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 497px;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.card_qrcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/project/images/oval.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 24px;
+    width: 288px;
+    height: 288px;
+}
+
+.card_qrcode-img {
+    height: 160px;
+    width: 160px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.card_content h1 {
+    color: var(--dark-navy);
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 28px;
+    font-size: 22px;
+}
+
+.card_content p {
+    color: var(--gray);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+}
