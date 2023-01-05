@@ -21,8 +21,8 @@ This is a component for a QR code
 
 ### Links
 
-- Project GitHub URL: [GitHub URL](https://github.com/heshamelmasry77/the-QR-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Project GitHub URL: (https://github.com/heshamelmasry77/the-QR-code-component)
+- Live Site URL: (https://the-qr-code-component.vercel.app/)
 
 ## My process
 
