@@ -16,7 +16,7 @@ This is a component for a QR code
 
 ### Screenshot
 
-![](../screenshot.png)
+![](./screenshot.png)
 
 
 ### Links
