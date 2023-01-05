@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("/project/images/oval.png") no-repeat;
+    background: url("images/oval.png") no-repeat;
     background-size: contain;
     margin-bottom: 24px;
     width: 288px;
